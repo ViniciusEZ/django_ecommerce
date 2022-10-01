@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load vi_filters %}
+{% load static %}
+
+{% block titulo %}{{ pedido }} | {% endblock %}
+
+{% block conteudo %}
+
+{% include 'parciais/_pedido.html' %}
+
+{% endblock %}
